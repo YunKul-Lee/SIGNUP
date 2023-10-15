@@ -18,7 +18,7 @@ export const CantStartNumber: ValidateRule = {
     message: '숫자로 시작하는 아이디는 사용할 수 없습니다.',
 };
 
-export const MaximumLengthLimit = (limit: number): ValidateRule => ({
+export const MinimumLengthLimit = (limit: number): ValidateRule => ({
     rule: RegExp(`(.){${limit}}`),
     match: true,
     message: `최소한 ${limit}글자 이상 이어야 합니다.`,

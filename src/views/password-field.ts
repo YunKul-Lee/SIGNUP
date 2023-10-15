@@ -33,7 +33,6 @@ const DefaultProps: Props = {
     require: true,
     placeholder: '',
     strong: StrongLevel.None
-
 }
 
 export default class PasswordField {
